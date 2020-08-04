@@ -2,19 +2,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:padding="8dp">
 
     <ImageView
         android:id="@+id/imgProfilPhoto"
-        android:layout_width="100dp"
-        android:layout_height="70dp"
-        android:background="@drawable/ic_launcher_background" />
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/sondakika"
+        android:scaleType="centerCrop" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/color1"
         android:orientation="vertical">
 
         <TextView
@@ -22,19 +22,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:background="@color/color2"
-            android:text="Ozgurcan Sezgin"
-            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:text="Van'da meydana gelen Cıg Felaketı"
+            android:textSize="22sp"
             android:textStyle="bold" />
-
 
         <TextView
             android:id="@+id/txtdetail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="18dp"
             android:layout_marginTop="12dp"
-            android:background="@color/color3"
             android:text="ozgur.can.1223@hotmail.com"
             android:textSize="16sp" />
 

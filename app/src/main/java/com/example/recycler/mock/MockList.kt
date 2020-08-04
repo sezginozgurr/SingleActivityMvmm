@@ -3,15 +3,6 @@ package com.example.recycler.mock
 import com.example.recycler.model.ListModel
 
 
-/**     Code with ❤
-╔════════════════════════════╗
-║  Created by Özgür Can  ║
-╠════════════════════════════╣
-║ sezginzgurr@gmail.com ║
-╠════════════════════════════╣
-║     04/08/2020 - 15:35     ║
-╚════════════════════════════╝
- */
 object MockList {
     fun getMockList(): List<ListModel> {
         val listmodel = ListModel(
