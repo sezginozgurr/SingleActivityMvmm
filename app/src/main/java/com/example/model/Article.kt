@@ -1,4 +1,5 @@
-package com.example.jsonapi.model
+package com.example.model
+
 
 data class Article(
     val author: String,

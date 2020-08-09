@@ -3,11 +3,11 @@ package com.example.recycler.adapter
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.model.Article
 import com.example.recycler.holder.ListHolder
-import com.example.recycler.model.ListModel
 
 
-class ListAdapter(private val list: List<ListModel>) : RecyclerView.Adapter<ListHolder>() {
+class ListhAdapter(private val list: List<Article>) : RecyclerView.Adapter<ListHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListHolder {
         return ListHolder(parent)
     }

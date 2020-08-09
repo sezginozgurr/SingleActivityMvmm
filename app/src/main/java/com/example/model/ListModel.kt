@@ -1,4 +1,4 @@
-package com.example.recycler.model
+package com.example.model
 
 import com.google.gson.annotations.SerializedName
 
@@ -14,3 +14,4 @@ data class ListModel(
     val detail: String
 ) {
 }
+

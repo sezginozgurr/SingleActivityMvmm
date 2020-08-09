@@ -1,6 +1,6 @@
 package com.example.recycler.mock
 
-import com.example.recycler.model.ListModel
+import com.example.model.ListModel
 
 
 object MockList {

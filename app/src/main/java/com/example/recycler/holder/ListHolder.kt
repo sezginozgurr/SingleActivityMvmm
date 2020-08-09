@@ -6,7 +6,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.recycler.model.ListModel
+import com.example.model.Article
 import com.example.singeactivitymvvm.R
 
 
@@ -18,11 +18,11 @@ class ListHolder(container: ViewGroup) : RecyclerView.ViewHolder(
     val txtDetail: TextView = itemView.findViewById(R.id.txtdetail)
     val txtCompany: TextView = itemView.findViewById(R.id.namecompany)
 
-    fun bind(listmodel: ListModel) {
-        Glide.with(itemView.context).load(listmodel.imgPhotoLink).into(imgProfilPhoto)
+    fun bind(listmodel: Article) {
+        Glide.with(itemView.context).load(listmodel.urlToImage).into(imgProfilPhoto)
         txtTitle.text = listmodel.title
-        txtDetail.text = listmodel.detail
-        txtCompany.text = listmodel.namecompany
+        txtDetail.text = listmodel.description
+        txtCompany.text = listmodel.author
 
     }
 }

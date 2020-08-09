@@ -1,6 +1,6 @@
 package com.example.jsonapi.network
 
-import com.example.recycler.model.PostsModel
+import com.example.model.PostsModel
 import retrofit2.Call
 import retrofit2.http.GET
 

@@ -1,6 +1,7 @@
-package com.example.jsonapi.model
+package com.example.model
 
-data class NewsModel(
+
+data class PostsModel(
     val articles: List<Article>,
     val status: String,
     val totalResults: Int
