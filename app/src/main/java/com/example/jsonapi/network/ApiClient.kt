@@ -10,7 +10,7 @@ object ApiClient {
     fun getClient(): Retrofit? {
         if (retrofit == null)
             retrofit =
-                Retrofit.Builder().baseUrl("http://newsapi.org/v2/")
+                Retrofit.Builder().baseUrl(Constant.baseUrl)
                     .addConverterFactory(
                         GsonConverterFactory
                             .create()
