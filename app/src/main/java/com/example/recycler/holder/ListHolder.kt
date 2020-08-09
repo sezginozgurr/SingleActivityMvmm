@@ -16,11 +16,13 @@ class ListHolder(container: ViewGroup) : RecyclerView.ViewHolder(
     val imgProfilPhoto: ImageView = itemView.findViewById(R.id.imgProfilPhoto)
     val txtTitle: TextView = itemView.findViewById(R.id.txtTitle)
     val txtDetail: TextView = itemView.findViewById(R.id.txtdetail)
+    val txtCompany: TextView = itemView.findViewById(R.id.namecompany)
 
     fun bind(listmodel: ListModel) {
         Glide.with(itemView.context).load(listmodel.imgPhotoLink).into(imgProfilPhoto)
         txtTitle.text = listmodel.title
         txtDetail.text = listmodel.detail
+        txtCompany.text = listmodel.namecompany
 
     }
 }
