@@ -23,3 +23,5 @@ class HomePageFragment : Fragment(R.layout.fragment_home_page) {
         fragmentMainBinding?.recycler?.adapter = ListAdapter(MockList.getMockList())
     }
 }
+
+//http://newsapi.org/v2/top-headlines?country=tr&apiKey=3731ae5c419e41faa755f7a7d174fe60
